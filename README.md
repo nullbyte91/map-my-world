@@ -19,7 +19,7 @@ The recommended robot configuration requires:
 ![Gazbo view](https://github.com/nullbyte91/map-my-world/blob/master/images/gazebo_view.png)
 
 #### 2D Map
-![2D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/2D_Map.png)
+![2D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/2d_map_update.png)
 
 #### 3D Map
 ![3D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/3d_map.png)
@@ -113,6 +113,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 # rtabmap viewer
 rtabmap-databaseViewer ~/.ros/rtabmap.db
+
 ```
 
 ### Reference
