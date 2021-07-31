@@ -94,7 +94,7 @@ The recommended robot configuration requires:
 ### 🖖 Quick Start
 ```bash
 mkdir -p catkin_ws/src && pushd catkin_ws/src
-git clone https://github.com/nullbyte91/robot_localization-amcl.git
+git clone https://github.com/nullbyte91/map-my-world.git
 cd ..
 
 # Build package
