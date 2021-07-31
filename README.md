@@ -109,8 +109,9 @@ roslaunch my_robot world.launch
 source devel/setup.bash
 roslaunch my_robot mapping.launch
 
-# teleop_twist_keyboard
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+# Terminal 3
+source devel/setup.bash
+roslaunch my_robot teleop.launch
 
 # rtabmap viewer
 rtabmap-databaseViewer ~/.ros/rtabmap.db
