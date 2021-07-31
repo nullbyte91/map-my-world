@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
     <!-- Robot pose -->
-    <arg name="x" default="-8"/>
-    <arg name="y" default="-8"/>
+    <arg name="x" default="0"/>
+    <arg name="y" default="0"/>
     <arg name="z" default="0"/>
     <arg name="roll" default="0"/>
     <arg name="pitch" default="0"/>
-    <arg name="yaw" default="1.59"/>
+    <arg name="yaw" default="0"/>
     
     <!-- Launch other relevant files-->
     <include file="$(find my_robot)/launch/robot_description.launch"/>
 
     <!-- World File -->
     <!-- <arg name="world_file" default="$(find my_robot)/worlds/empty.world"/> -->
-    <arg name="world_file" default="$(find my_robot)/worlds/test_world.world"/>
-    
+    <!-- <arg name="world_file" default="$(find my_robot)/worlds/test_world.world"/> -->
+     <arg name="world_file" default="$(find my_robot)/worlds/no_roof_small_warehouse.world"/>
+     
     <!-- Launch Gazebo World -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
