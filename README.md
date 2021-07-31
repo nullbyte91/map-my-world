@@ -102,6 +102,7 @@ catkin_make
 
 # Terminal 1
 source devel/setup.bash
+export GAZEBO_MODEL_PATH=`rospack find my_robot`/model/:$GAZEBO_MODEL_PATH
 roslaunch my_robot world.launch
 
 # Terminal 2
