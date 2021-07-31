@@ -1,4 +1,4 @@
-## Map-my-world? - Udacity - Robotics Software Engineer Nanodegree Program - Project Four
+## Map-my-world
 This project we will create a 2D occupancy grid and 3D octomap from a simulated environment using our own robot and sensors with the RTAB-Map package.
 
 ### rtabmap_ros
@@ -16,19 +16,19 @@ The recommended robot configuration requires:
 | [![Map-my-world Demo](https://github.com/nullbyte91/map-my-world/blob/master/images/HLD_View.png)](https://youtu.be/PF4Z7xRsVOM) |
 
 #### Gazebo View
-[![Gazbo view](https://github.com/nullbyte91/map-my-world/blob/master/images/gazebo_view.png)]
+![Gazbo view](https://github.com/nullbyte91/map-my-world/blob/master/images/gazebo_view.png)
 
 #### 2D Map
-[![2D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/2D_Map.png)]
+![2D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/2D_Map.png)
 
 #### 3D Map
-[![3D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/3d_map.png)]
+![3D Map](https://github.com/nullbyte91/map-my-world/blob/master/images/3d_map.png)
 
 #### Occupancy Grid Map
-[![Occupancy Grid Map](https://github.com/nullbyte91/map-my-world/blob/master/images/occupancy_grid_map.png)]
+![Occupancy Grid Map](https://github.com/nullbyte91/map-my-world/blob/master/images/occupancy_grid_map.png)
 
 #### Detected Feature
-[![Detected Feature](https://github.com/nullbyte91/map-my-world/blob/master/images/Detected_Feature.png)]
+![Detected Feature](https://github.com/nullbyte91/map-my-world/blob/master/images/Detected_Feature.png)
 
 ### 🗃 Project structure
 ```python
